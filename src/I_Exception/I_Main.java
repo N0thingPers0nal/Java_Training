@@ -3,7 +3,7 @@ package I_Exception;
 public class I_Main {
     public static void main(String[] args) {
         try {
-            new  Test().test_Throw();
+            new Test().test_Throw();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
