@@ -12,6 +12,10 @@ public class J_Map {
         map.put(2,"w");
         System.out.println(map.keySet());
         System.out.println(map.get(0));
+//        0 is null because there is no key's value of zero
+        for (Integer key:map.keySet()){
+            System.out.println(key+" "+map.get(key));
+        }
 
 
 
